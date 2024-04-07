@@ -4,11 +4,87 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43ac1ee9-5e47-40b6-98f0-8544ae3d204b" name="Changes" comment="initial comment" />
+    <list default="true" id="43ac1ee9-5e47-40b6-98f0-8544ae3d204b" name="Changes" comment="readme added">
+      <change afterPath="$PROJECT_DIR$/Codewar/Human readable duration format.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codewar/Move_Zero.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codewar/Snail Sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codewar/Tribonacci Sequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codewar/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/3 people.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Abandoned/NewSort AB C D E*.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Abandoned/NewSort AB C.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Abandoned/NewSort AB CD E.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Abandoned/NewSort AB CDE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Abandoned/NewSort ABC D E.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Abandoned/NewSort ABCD E.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Abandoned/NewSort AC B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Abandoned/NewSort BC A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Abandoned/Scikit-learn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/AvgSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Coop/CoopSort AB C D E.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Coop/CoopSort AB C.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Coop/CoopSort AB CD E.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Coop/CoopSort AB CDE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Coop/CoopSort ABC D E.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Coop/CoopSort ABCD E.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Coop/CoopSort AC B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Coop/CoopSort BC A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Coop/DataOut.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/ItermCorrelation copy.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/ItermCorrelation.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/NewDataOut_GPL.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Non Coop/DataOut.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Non Coop/NewSort A B C D E.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Non Coop/NewSort A B C.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Non Coop/NewSort A B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Non Coop/NewSort A C.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Q1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/QJ.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/QJ/IMMCMichPack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/QJ/IMMCMichPack/drawplot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/QJ/IMMCMichPack/getMaxTotalValueArrangement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/QJ/IMMCMichPack/getad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/QJ/IMMCMichPack/iteration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/QJ/IMMCMichPack/printdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/QJ/ItermCorrelation copy.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/QJ/RawData 2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/QJ/Solution(3).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/RawData 2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/RawData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMC/Solution(3).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMCMichPack.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMCMichPack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMCMichPack/drawplot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMCMichPack/getMaxTotalValueArrangement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMCMichPack/getad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMCMichPack/iteration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMMCMichPack/printdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Personal Work/BlueArchiveTimingScheduler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Personal Work/JmichLib/EzValueProcess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Personal Work/Math Modeling/Test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Personal Work/Odrive/Graphs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Personal Work/Odrive/LinearSlider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Personal Work/Odrive/velocity graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Personal Work/SAD-C.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Personal Work/Useless/scratch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School Work/Technology Class/Turtle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School Work/TestOnAlgorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Personal Work/Graphs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Work/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -18,19 +94,49 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file:///Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/parse.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2QrMLPfboEFjyHgCjLBfLlyXVan" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/Personal/Coding/Python/Main/IMMC/Non Coop&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;,
+      &quot;Markdown&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/IMMC/Non Coop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/IMMC/Abandoned" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/IMMC/Non Coop" />
+      <recent name="$PROJECT_DIR$/IMMC" />
+      <recent name="$PROJECT_DIR$/Personal Work/Odrive" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686107627270</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".idea change">
+      <created>1686107730945</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686107730945</updated>
+    </task>
+    <task id="LOCAL-00005" summary="readme added">
+      <created>1686107903928</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686107903928</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,7 +195,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -88,10 +208,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="initial comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial comment" />
+    <MESSAGE value=".idea change" />
+    <MESSAGE value="readme added" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme added" />
   </component>
 </project>

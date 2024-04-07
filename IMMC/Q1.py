@@ -2,7 +2,7 @@ from itertools import repeat
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-
+import IMMCMichPack as mp
 rawData = pd.read_excel(r"/Volumes/Personal/Coding/Python/Main/IMMC/RawData.xlsx", sheet_name="Q1")
 
 max = []
@@ -42,35 +42,8 @@ print(dNew/2)
 
 # Starts Iterating
 for i in range(30):
-
-
-    lowestP = int(avgSortedList.sum().idxmin())
-    highestP = int(avgSortedList.sum().idxmax())
-
-
-
-    lowestPItem = avgSortedList.iloc[:, lowestP].dropna()
-    lowestPItemToHigh = rawData.iloc[lowestPItem.index, highestP].dropna()
-    highestPItem = avgSortedList.iloc[:, highestP].dropna()
-    highestPItemToHigh = rawData.iloc[highestPItem.index, lowestP].dropna()
-    itemTransHTLCost = highestPItem + highestPItemToHigh
-
-
-    # find the item closest to transfer bound
-    range = int(avgSortedList.sum().max().item() - avgSortedList.sum().min().item())
-
-
-    # find the items in itemTransHTLCost closest to Range
-    itemTransHTL = (itemTransHTLCost.iloc[(itemTransHTLCost - range).abs().argsort()[:1]]).index
-
-
-    # TransferHighToLow
-    sortedList.iloc[itemTransHTL, highestP] = 0
-    sortedList.iloc[itemTransHTL, lowestP] = rawData.iloc[
-        itemTransHTL, lowestP]
-    avgSortedList.iloc[itemTransHTL, highestP] = np.NaN
-    avgSortedList.iloc[itemTransHTL, lowestP] = rawData.iloc[
-        itemTransHTL, lowestP]
+    avgSortedList = mp.iteration(avgSortedList,avgSortedList,rawData,sortedList,True)
+    sortedList = mp.iteration(avgSortedList,avgSortedList,rawData,sortedList,False)
 
     dNew = 0
     dNew += abs(avgSortedList.sum().sum() / 2 - avgSortedList.sum().iloc[0])
@@ -85,8 +58,9 @@ for i in range(30):
 
 
 print(sortedList)
-# print(avgSortedList.sum())
-print(dNewList[len(dNewList)-10:len(dNewList)-1])
+print(avgSortedList.sum())
+print("ADList, check for oscillation:", dNewList[len(dNewList)-10:len(dNewList)-1])
+print("Lowest absolute deviations:", min(dNewList))
 
 
 x = iterate
@@ -95,6 +69,6 @@ y = dNewList
 plt.plot(x,y)
 plt.xlabel('Iteration')
 plt.ylabel('Absolute Deviation')
-plt.title('B & (A+C) Absolute Deviations respond to increasing Iteration')
+plt.title('A & B Absolute Deviations against Iteration')
 plt.show()
 

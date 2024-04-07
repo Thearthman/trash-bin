@@ -7,10 +7,11 @@
 # 将正义指数 J 定义为获得的总价值除以预期的总价值。
 # 当J不是保存时，将货物交给J最低的那个
 # 当J相同时，将货物交给V最高的那个
-from itertools import repeat
-import matplotlib as plt
-import numpy as np
 import math
+from itertools import repeat
+import IMMCMichPack as mp
+import numpy
+import pandas as pd
 from openpyxl import load_workbook
 import string
 ####################################################### Division line
@@ -27,7 +28,7 @@ V_size = [num_of_columns,num_of_rows]
 
 
 ###### DATA loading
-CorrelationWorkBook = load_workbook("/Users/Disk/Programs/IMMC2024winter/Code/tables/ItermCorrelation.xlsx")  # Work Book
+CorrelationWorkBook = load_workbook("/Volumes/Personal/Coding/Python/Main/IMMC/ItermCorrelation.xlsx")  # Work Book
 Gain_WorkSheet = CorrelationWorkBook.get_sheet_by_name('Gain-Table')  # Work Sheet
 Loss_WorkSheet = CorrelationWorkBook.get_sheet_by_name('Loss-Table')  # Work Sheet 
 
@@ -56,30 +57,15 @@ for i in Correlation_Column_Names:
 
 
 
-### Output the data to xlsx table.:
-import xlsxwriter as xw
-output_table =  xw.Workbook('/Users/Disk/Programs/IMMC2024winter/Code/tables/output_table20.xlsx')
+
+
+Correlation_Coefficient = 5 #SASASASASASASASASASA
+
+0
 
 
 
-Correlation_Coefficient = 20 #SASASASASASASASASASA
-
-
-
-def PRINT_Matrix(Matrix,SheetName):
-  SheetName = output_table.add_worksheet(SheetName)
-  for rows in range(len(Matrix)):
-    for cols in range(len(Matrix[rows])):
-      SheetName.write(rows,cols,Matrix[rows][cols]) 
-
-def PRINT_Verticle_Column(vec,SheetName):
-  SheetName = output_table.add_worksheet(SheetName)
-  for rows in range(len(vec)):
-    SheetName.write(0,rows,vec[rows])  
-
-
-
-wb = load_workbook("/Users/Disk/Programs/IMMC2024winter/Code/tables/RawData.xlsx")  # Work Book
+wb = load_workbook("/Volumes/Personal/Coding/Python/Main/IMMC/RawData 2.xlsx")  # Work Book
 ws = wb.get_sheet_by_name('Ordered-Before Transition')  # Work Sheet
 
 
@@ -256,30 +242,66 @@ while current_row_number<num_of_rows:
 
 
 
-PRINT_Matrix(Distribution_Matrix,'modified')
-PRINT_Matrix(Value_Matrix,'cargo-value-modified')
-
-PRINT_Verticle_Column(J,'Justice value')
-
-print(AbsoluteVariance(J))
-
-print(5*Expectation(J))
-
-
-
 VDM = Calc_VD_Matrix(Value_Matrix,Distribution_Matrix)
 
-PRINT_Matrix(VDM,'VMD')
+
+print(pd.DataFrame(VDM))
+print(J)
+# breakpoint()
+
+rawData = pd.DataFrame(Value_Matrix)
+newRawData = pd.DataFrame({'0': rawData.iloc[:, 0], '1': rawData.iloc[:, 1]})
+sortedList = pd.DataFrame(VDM)
+avgSortedList = sortedList.replace(0,numpy.NaN)
+newSortList = pd.DataFrame({'0': sortedList.iloc[:, 0], '1': sortedList.iloc[:, 1]})
+newAvgList = newSortList.replace(0,numpy.NaN)
+avgSortedListToBePrinted = pd.DataFrame({'0': avgSortedList.sum()}).transpose()
+adList = []
+adList.append(mp.getad(avgSortedList))
+
+newMax = []
+newMaxId = []
+mask = []
+
+# Calc Final T Excepted
+New_T_Excepted = rawData.iloc[:,0:3].sum()
+New_T_Gained = sortedList.sum()
+New_Justice_Value = New_T_Gained/New_T_Excepted
+
+print(New_T_Gained)
+print(New_Justice_Value)
+# breakpoint()
+
+
+for j in range(30):
+    mask.append(j) if newSortList.iloc[j, 0].item() != 0 or newSortList.iloc[j, 1].item() != 0 else None
+
+
+iterationCount = 0
+for j in mask:
+    newMax.append(newRawData.iloc[j].max())
+    newMaxId.append(int(newRawData.iloc[j].idxmax()))
+    newSortList.loc[j] = list(repeat(0, newMaxId[iterationCount])) + list(repeat(newMax[iterationCount], 1)) + list(
+        repeat(0, (1 - newMaxId[iterationCount])))
+    newAvgList.loc[j] = list(repeat(numpy.NaN, newMaxId[iterationCount])) + list(repeat(newMax[iterationCount], 1)) + list(
+        repeat(numpy.NaN, (1 - newMaxId[iterationCount])))
+    iterationCount += 1
+
+for r in range(2):
+    sortedList.iloc[:, r] = newSortList.iloc[:, r]
+    avgSortedList.iloc[:, r] = newSortList.iloc[:, r]
+
+jDataFrame = pd.Series({"Value of J": J})
+printList = sortedList._append(avgSortedListToBePrinted._append(avgSortedList.sum().transpose(), ignore_index=True)
+                               , ignore_index=True)
+printList = printList._append(jDataFrame, ignore_index=True)
+# printList.to_excel("NewDataOut_GPL.xlsx",sheet_name="AB+C")
+with pd.ExcelWriter("NewDataOut_GPL.xlsx", mode="a", if_sheet_exists="replace") as writer:
+    printList.to_excel(writer, sheet_name="AB+C+D+E")
+mp.printdata(sortedList, avgSortedList, adList)
 
 
 
-### Algorithm 3:
-# After the distribution, the two check their list and EXCHANGE items. 
-# Values of the items should satisty the following inequality: 
-#  A --> B
-#  C <-- D
-# Then D - A > 0
-#      B - C > 0
 
 
 
@@ -292,4 +314,3 @@ PRINT_Matrix(VDM,'VMD')
 
 
 
-output_table.close() # This should be put at the last line.
