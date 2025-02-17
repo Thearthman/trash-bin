@@ -1,78 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43ac1ee9-5e47-40b6-98f0-8544ae3d204b" name="Changes" comment="readme added">
-      <change afterPath="$PROJECT_DIR$/Codewar/Human readable duration format.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codewar/Move_Zero.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codewar/Snail Sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codewar/Tribonacci Sequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codewar/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/3 people.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Abandoned/NewSort AB C D E*.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Abandoned/NewSort AB C.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Abandoned/NewSort AB CD E.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Abandoned/NewSort AB CDE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Abandoned/NewSort ABC D E.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Abandoned/NewSort ABCD E.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Abandoned/NewSort AC B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Abandoned/NewSort BC A.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Abandoned/Scikit-learn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/AvgSort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Coop/CoopSort AB C D E.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Coop/CoopSort AB C.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Coop/CoopSort AB CD E.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Coop/CoopSort AB CDE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Coop/CoopSort ABC D E.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Coop/CoopSort ABCD E.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Coop/CoopSort AC B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Coop/CoopSort BC A.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Coop/DataOut.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/ItermCorrelation copy.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/ItermCorrelation.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/NewDataOut_GPL.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Non Coop/DataOut.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Non Coop/NewSort A B C D E.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Non Coop/NewSort A B C.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Non Coop/NewSort A B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Non Coop/NewSort A C.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Q1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/QJ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/QJ/IMMCMichPack/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/QJ/IMMCMichPack/drawplot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/QJ/IMMCMichPack/getMaxTotalValueArrangement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/QJ/IMMCMichPack/getad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/QJ/IMMCMichPack/iteration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/QJ/IMMCMichPack/printdata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/QJ/ItermCorrelation copy.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/QJ/RawData 2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/QJ/Solution(3).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/RawData 2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/RawData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMC/Solution(3).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMCMichPack.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMCMichPack/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMCMichPack/drawplot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMCMichPack/getMaxTotalValueArrangement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMCMichPack/getad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMCMichPack/iteration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMMCMichPack/printdata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal Work/BlueArchiveTimingScheduler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal Work/JmichLib/EzValueProcess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal Work/Math Modeling/Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal Work/Odrive/Graphs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal Work/Odrive/LinearSlider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal Work/Odrive/velocity graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal Work/SAD-C.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal Work/Useless/scratch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School Work/Technology Class/Turtle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School Work/TestOnAlgorithm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Math/Statistics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Math/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Math/taylorSeries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Personal Work/2D_Coordinate/2D_Coordinate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Personal Work/MathTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Personal Work/Useless/WebCrawler/WebSpider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Personal Work/Useless/WebCrawler/hyperlinks.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Personal Work/Useless/rhythmGame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School Work/G12/ADT/AbstractDataTypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School Work/G12/BinarySearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School Work/G12/BinaryTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School Work/G12/BubbleSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School Work/G12/InsertionSorting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School Work/G12/LinearSearch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Personal Work/Graphs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/School Work/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMMC/Coop/DataOut.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/IMMC/Coop/DataOut.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMMC/Non Coop/DataOut.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/IMMC/Non Coop/DataOut.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMMCMichPack/iteration.py" beforeDir="false" afterPath="$PROJECT_DIR$/IMMCMichPack/iteration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Personal Work/BlueArchiveTimingScheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Personal Work/Useless/BlueArchiveTimingScheduler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Personal Work/Palindrome.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Personal Work/SAD-C.py" beforeDir="false" afterPath="$PROJECT_DIR$/Personal Work/Useless/SAD-C.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Work/Age.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/G10-11/Age.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Work/Basic Mathematic.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/G10-11/Basic Mathematic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Work/ClassAverageStudentScore.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/G10-11/ClassAverageStudentScore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Work/Function.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/G10-11/Function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Work/GradesUsingList.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/G10-11/GradesUsingList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Work/IntroToLogicGate.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/G10-11/IntroToLogicGate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Work/PseudocodeBasicMathmatics.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/G10-11/PseudocodeBasicMathmatics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Work/PseudocodeToPython.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/G10-11/PseudocodeToPython.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Work/Quadratics.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/G10-11/Quadratics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Work/RandList&amp;Finding.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/G10-11/RandList&amp;Finding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Work/Range&amp;Biggest.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/G10-11/Range&amp;Biggest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Work/Repetition.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/G10-11/Repetition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Work/Round&amp;Random.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/G10-11/Round&amp;Random.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Work/Symbol.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/G10-11/Symbol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Work/TestOnAlgorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/G10-11/TestOnAlgorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Work/TicTacToe Plus Pro Max Ultra.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/G10-11/TicTacToe Plus Pro Max Ultra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School Work/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/School Work/G10-11/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,33 +83,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Volumes/Personal/Coding/Python/Main/IMMC/Non Coop&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Volumes/Personal/Coding/Python/Main/IMMC/Non Coop",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "inlay.hints"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;,
-      &quot;Markdown&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python",
+      "Markdown"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/IMMC/Non Coop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/IMMC/Abandoned" />
+      <recent name="$PROJECT_DIR$/School Work/G10-11" />
+      <recent name="$PROJECT_DIR$/Personal Work/Useless" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/IMMC/Non Coop" />
-      <recent name="$PROJECT_DIR$/IMMC" />
-      <recent name="$PROJECT_DIR$/Personal Work/Odrive" />
+      <recent name="$PROJECT_DIR$/Personal Work" />
+      <recent name="$PROJECT_DIR$/Personal Work/Useless/WebCrawler" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -216,5 +191,16 @@
     <MESSAGE value=".idea change" />
     <MESSAGE value="readme added" />
     <option name="LAST_COMMIT_MESSAGE" value="readme added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/71198eabb8efd396fac63c64a2158870/Message/MessageTemp/eccef04db20f8d4da385359b0a74a69a/File/bubble sort.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

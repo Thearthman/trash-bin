@@ -4,6 +4,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/IMMCMichPack" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Personal Work/JmichLib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Math" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/School Work/Technology Class" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
